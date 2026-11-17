@@ -58,6 +58,12 @@ slop-scan is a command line tool, so install it with npm: `npm install -g slop-s
 | [cold-reader](https://github.com/telepath-computer/team-skills/tree/main/cold-reader) | Write documents for readers who hold no history with the project. | [telepath-computer](https://github.com/telepath-computer/team-skills) |
 | [unslop](https://github.com/cursor/plugins/tree/main/pstack/skills/unslop) | Remove AI writing patterns from text and add human voice. | [cursor](https://github.com/cursor/plugins) |
 
+### Skill authoring
+
+| Skill | What it does | Source |
+|---|---|---|
+| [skill-creator](https://github.com/mgechev/skills-best-practices/tree/main/skill) | Write and structure agent skills that follow the agentskills.io spec. | [mgechev](https://github.com/mgechev/skills-best-practices) |
+
 ### Explaining and deciding
 
 | Skill | What it does | Source |
@@ -83,6 +89,7 @@ Open a pull request with:
 | [modem-dev/slop-scan](https://github.com/modem-dev/slop-scan) | modem-dev | MIT |
 | [cursor/plugins](https://github.com/cursor/plugins) | Cursor | none published |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | Matt Pocock | MIT |
+| [mgechev/skills-best-practices](https://github.com/mgechev/skills-best-practices) | Minko Gechev | none published |
 
 Each linked skill keeps the license of its source repo. The catalog text in this repo is MIT.
 
