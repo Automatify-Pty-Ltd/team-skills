@@ -65,6 +65,12 @@ slop-scan is a command line tool, so install it with npm: `npm install -g slop-s
 |---|---|---|
 | [skill-creator](https://github.com/mgechev/skills-best-practices/tree/main/skill) | Write and structure agent skills that follow the agentskills.io spec. | [mgechev](https://github.com/mgechev/skills-best-practices) |
 
+### Design and architecture
+
+| Skill | What it does | Source |
+|---|---|---|
+| [domain-modeling](https://github.com/mattpocock/skills/tree/main/skills/engineering/domain-modeling) | Build and sharpen a project's domain model: pin down terms in a glossary and record decisions. | [mattpocock](https://github.com/mattpocock/skills) |
+
 ### Explaining and deciding
 
 | Skill | What it does | Source |
