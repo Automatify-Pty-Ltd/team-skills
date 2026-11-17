@@ -9,30 +9,19 @@ Most Automatify repos run coding agents. When each repo picks its own skill set,
 ## Quick start
 
 1. Pick a skill from the catalog below.
-2. Install it. The source repo documents its install command. The common path is the skills registry CLI:
+2. Install it with the skills CLI, and target your agent:
 
    ```bash
-   npx skills add <owner>/<repo> --skill <skill-name>
+   npx skills add <owner>/<repo> --skill <skill-name> --agent pi -g
+   npx skills add <owner>/<repo> --skill <skill-name> --agent codex -g
    ```
 
-   Or copy the skill folder into the skills directory your agent reads:
-
-   ```text
-   pi:          ~/.pi/agent/skills/ or ~/.agents/skills/
-   Codex:       ~/.agents/skills/ or ~/.codex/skills/
-   Claude Code: ~/.claude/skills/
-   ```
-
-   Sample download for one skill, using the grilling entry:
+   `-g` installs at user level, so every project picks the skill up. Real examples from this catalog:
 
    ```bash
-   git clone --depth 1 https://github.com/mattpocock/skills /tmp/skills
-   mkdir -p ~/.agents/skills
-   cp -r /tmp/skills/skills/productivity/grilling ~/.agents/skills/
-   rm -rf /tmp/skills
+   npx skills add mattpocock/skills --skill grilling --agent pi -g
+   npx skills add DietrichGebert/ponytail --skill ponytail --agent codex -g
    ```
-
-   The shared `~/.agents/skills/` directory works for pi and Codex.
 
 3. Invoke the skill in your agent chat. Say "grill me" for grilling, or "/show-me" for show-me, or name the skill and its task.
 
